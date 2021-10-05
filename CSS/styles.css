@@ -5,3 +5,8 @@ body {
 h1 {
     color:lightslategrey;
 }
+
+nav {
+    background-color: #E5DADA;
+    border: #002642;
+}
