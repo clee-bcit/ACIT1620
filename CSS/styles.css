@@ -1,24 +1,40 @@
 body {
     background-color:#E5DADA;
-    border-style: groove;
-    border-color: #E59500;
+    position: static;
+    border-width: 10px;
+    word-wrap: break-word;
+
+    
 }
 
 h1 {
     color:#02040F;
-}
-
-nav {
-    background-color: #E5DADA;
-    border: #E59500;
-    border-style: ridge;
-}
-
-.nav_top {
-    position: fixed;
+    padding-top: 3rem;
 }
 
 img {
-    max-width: 50%;
+    float: left;
+    position: static;
+    max-width: 350px;
+    max-height: 420px;
+    padding-right: 20px;
 }
+
+p {
+    font-size: 30px;
+}
+nav {
+    position: fixed;
+    background-color: #E5DADA;
+    border: #E59500;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 0;
+    width: 90%;
+    }
+
+.course_ul {
+        padding-top: 90px;
+    }
+
 
