@@ -14,6 +14,11 @@ nav {
     border-style: ridge;
 }
 
+.nav_top {
+    position: fixed;
+}
+
 img {
     max-width: 50%;
 }
+
